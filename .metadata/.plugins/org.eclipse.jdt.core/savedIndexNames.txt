@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\lunar\Desktop\Treinar POO\.metadata\.plugins\org.eclipse.jdt.core
+2590222753.index
+240880419.index
+3861961647.index
+1865797976.index

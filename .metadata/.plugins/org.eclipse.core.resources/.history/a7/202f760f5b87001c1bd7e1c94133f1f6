@@ -1,0 +1,23 @@
+package entities;
+
+public class Product {
+
+	public String name;
+	public double price;
+	public int quantity;
+	
+	//calcula o valor que tem no estoque
+	public double totalValueinStock() {
+		return price*quantity;
+	}
+	
+	//adiciona na quantidade de produtos
+	public void addProducts(int quantity) {
+		this.quantity += quantity;
+	}
+	
+	//remove a quantidade de produtos
+	public void removeProducts(int quantity) {
+		this.quantity -= quantity;
+	}
+}
